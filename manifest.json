@@ -1,10 +1,10 @@
 {
     "manifest_version": 3,
     "name": "Fix Scott's Business Directories Hyperlinks",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Removes the extra http:// from hyperlinks on Scott's Business Directories, accessible through Toronto Public Library.",
-    "permissions": [
-      "activeTab"
+    "host_permissions": [
+    "*://www-scottscanadianbusinessdirectory-com.ezproxy.torontopubliclibrary.ca/English/_Detail.aspx"
     ],
     "action": {
         "default_popup": "popup.html",
