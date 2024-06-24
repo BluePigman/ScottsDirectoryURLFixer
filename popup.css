@@ -1,0 +1,47 @@
+/* CSS for the popup window */
+body {
+    width: 250px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  h1 {
+    font-size: 18px;
+    color: var(--heading-color);
+  }
+  
+  p {
+    font-size: 14px;
+    color: var(--text-color);
+  }
+  
+  a {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  /* Light mode variables */
+  :root {
+    --background-color: #f9f9f9;
+    --text-color: #666;
+    --heading-color: #333;
+    --link-color: #3498db;
+  }
+  
+  /* Dark mode variables */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #333;
+      --text-color: #ccc;
+      --heading-color: #fff;
+      --link-color: #4dabf7;
+    }
+  }
+  
